@@ -1,10 +1,10 @@
 
 | CS-665       | Software Design & Patterns |
 |--------------|----------------------------|
-| Name         | FIRST_NAME LAST_NAME       |
-| Date         | MM/DD/YYYY                 |
+| Name         | Yiming Hu       |
+| Date         | 03/15/2023                 |
 | Course       | Fall / Spring / Summer     |
-| Assignment # |                            |
+| Assignment # | 3                          |
 
 # Assignment Overview
 Please add a paragraph or two overviewing the objectives of the assignment.
