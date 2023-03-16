@@ -7,13 +7,20 @@
 | Assignment # | 3                          |
 
 # Assignment Overview
-Please add a paragraph or two overviewing the objectives of the assignment.
-
+In this assignment I chose to use the strategy pattern because I think the advantages of the strategy pattern are very applicable in this assignment.
+1. The strategy pattern provides a way to manage related algorithm families. A hierarchy of strategy classes defines an algorithm or family of behaviors. Proper use of inheritance can move common code into the parent class, thereby avoiding duplication of code.
+2. The strategy pattern provides a way to replace the inheritance relationship. Inheritance can handle multiple algorithms or behaviors. If not using the strategy pattern, then the environment class that uses the algorithm or behavior may have several subclasses, each subclass provides a different algorithm or behavior.
 # GitHub Repository Link:
-https://github.com/{YOUR_USERNAME}/cs-665-assignment-{ASSIGNMENT_NUMBER}
+https://github.com/HUZZZW/CS665HW3.git
 
 # Implementation Description 
+I use Customer class and EmailGenerator interface to avoid code duplication. In the future, if you need to add a new customer type, you only need to create a new customer type and inherit the Email Generator and add a new object in the EmailGeneratorService class.
 
+Secondly, I have commented on each code to increase readability
+
+Why the strategy pattern is applicable I have already described in the first paragraph.
+
+![UML](https://user-images.githubusercontent.com/68926840/225712525-b9ca62cb-86b2-486e-a309-4b5a2600ac8a.jpg)
 
 For each assignment, please answer the following:
 
@@ -24,8 +31,6 @@ easy for others to read and maintain.
 - Describe how you have avoided duplicated code and why it is important.
 - If applicable, mention any design patterns you have used and explain why they were
 chosen.
-
-
 # Maven Commands
 
 We'll use Apache Maven to compile and run this project. You'll need to install Apache Maven (https://maven.apache.org/) on your system. 
